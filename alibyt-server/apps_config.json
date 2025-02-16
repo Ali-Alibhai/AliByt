@@ -1,0 +1,13 @@
+{
+    "ClockWithSeconds": {
+      "path": "~/AliByt/alibyt-apps/clockwithseconds/clockwithseconds.webp",
+      "refresh_rate": 1,
+      "brightness": 80
+    },
+    "NBAScores": {
+      "path": "~/AliByt/alibyt-apps/nbascores/nbascores.webp",
+      "refresh_rate": 120,
+      "brightness": 100
+    }
+}
+  
