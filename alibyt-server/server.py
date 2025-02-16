@@ -39,14 +39,21 @@ def load_apps_config():
 def subscribe():
     """ Subscribe to an app """
     data = request.json
-    app_name = data.get("app")
+    print("Received Data:", data)  # Debugging
 
+    app_name = data.get("app")
     available_apps = load_apps_config()
+
+    print("Available Apps:", available_apps)  # Debugging
+    print("Current Subscriptions:", subscriptions)  # Debugging
+
     if app_name in available_apps and app_name not in subscriptions["subscribed_apps"]:
         subscriptions["subscribed_apps"].append(app_name)
         save_subscriptions()
         return jsonify({"message": f"Subscribed to {app_name}"}), 200
+
     return jsonify({"error": "Invalid request or already subscribed"}), 400
+
 
 @app.route("/unsubscribe", methods=["POST"])
 def unsubscribe():
