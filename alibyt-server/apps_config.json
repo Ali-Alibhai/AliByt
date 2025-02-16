@@ -2421,7 +2421,7 @@
     },
     "clockwithseconds": {
         "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/clockwithseconds/clockwithseconds.webp",
-        "refresh_rate": 60,
+        "refresh_rate": 1,
         "brightness": 80
     },
     "stop_hitting_mets": {

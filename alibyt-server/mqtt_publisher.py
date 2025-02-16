@@ -66,12 +66,17 @@ def run_scheduler():
 
         current_time = time.time()
 
+        print(f"Currently subscribed apps: {subscribed_apps}")  # Debugging print statement
+
         for app in subscribed_apps:  # Only process subscribed apps
             if app not in apps:
+                print(f"Skipping {app} - Not found in config!")  # Debugging print
                 continue  # Skip if the app is not in config
 
             image_path = os.path.expanduser(apps[app]["path"])
             refresh_rate = apps[app]["refresh_rate"]
+
+            print(f"Checking app: {app}, Path: {image_path}, Refresh Rate: {refresh_rate}s")  # Debugging
 
             # Check if it's time to refresh this app
             if current_time - last_executions.get(app, 0) >= refresh_rate:
@@ -88,6 +93,7 @@ def run_scheduler():
                     client.publish(MQTT_TOPIC, json.dumps({"app": app, "path": image_path}))
 
         time.sleep(1)  # Short sleep to prevent CPU overuse
+
 
 try:
     run_scheduler()
