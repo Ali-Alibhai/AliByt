@@ -13,16 +13,23 @@ SUBSCRIPTIONS_PATH = "/home/aalibh4/AliByt/alibyt-server/database.json"
 with open(CONFIG_PATH, "r") as file:
     apps = json.load(file)
 
-# Load subscribed apps
-if os.path.exists(SUBSCRIPTIONS_PATH):
-    with open(SUBSCRIPTIONS_PATH, "r") as f:
-        subscriptions = json.load(f)
-        subscribed_apps = set(subscriptions.get("subscribed_apps", []))
-else:
+# Load subscribed apps with error handling
+subscribed_apps = set()
+try:
+    if os.path.exists(SUBSCRIPTIONS_PATH) and os.path.getsize(SUBSCRIPTIONS_PATH) > 0:
+        with open(SUBSCRIPTIONS_PATH, "r") as f:
+            subscriptions = json.load(f)
+            subscribed_apps = set(subscriptions.get("subscribed_apps", []))
+    else:
+        print("Warning: `database.json` is empty. Using default empty subscriptions.")
+except json.JSONDecodeError:
+    print("Error: `database.json` is corrupted. Resetting to default.")
     subscribed_apps = set()
+    with open(SUBSCRIPTIONS_PATH, "w") as f:
+        json.dump({"subscribed_apps": []}, f, indent=4)
 
 # MQTT setup
-MQTT_BROKER = "localhost"  
+MQTT_BROKER = "localhost"
 MQTT_TOPIC = "alibyt/images"
 
 client = mqtt.Client()
