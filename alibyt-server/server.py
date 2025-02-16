@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import json
 import os
 import paho.mqtt.client as mqtt
+from utils import load_apps_config
 
 app = Flask(__name__)
 
@@ -27,13 +28,6 @@ def save_subscriptions():
     """ Save subscription data to file """
     with open(DB_FILE, "w") as f:
         json.dump(subscriptions, f, indent=4)
-
-def load_apps_config():
-    """ Load available apps from config file """
-    if os.path.exists(APPS_CONFIG_FILE):
-        with open(APPS_CONFIG_FILE, "r") as f:
-            return json.load(f)
-    return {}
 
 @app.route("/subscribe", methods=["POST"])
 def subscribe():
