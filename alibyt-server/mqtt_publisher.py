@@ -5,21 +5,32 @@ import paho.mqtt.client as mqtt
 import hashlib
 from PIL import Image
 
-# Load config
+# File Paths
 CONFIG_PATH = "/home/aalibh4/AliByt/alibyt-server/apps_config.json"
+SUBSCRIPTIONS_PATH = "/home/aalibh4/AliByt/alibyt-server/database.json"
+
+# Load config
 with open(CONFIG_PATH, "r") as file:
     apps = json.load(file)
 
+# Load subscribed apps
+if os.path.exists(SUBSCRIPTIONS_PATH):
+    with open(SUBSCRIPTIONS_PATH, "r") as f:
+        subscriptions = json.load(f)
+        subscribed_apps = set(subscriptions.get("subscribed_apps", []))
+else:
+    subscribed_apps = set()
+
 # MQTT setup
-MQTT_BROKER = "localhost"  # Change if using an external broker
+MQTT_BROKER = "localhost"  
 MQTT_TOPIC = "alibyt/images"
 
 client = mqtt.Client()
 client.connect(MQTT_BROKER)
 
-# Track last sent images and last execution times
+# Track last sent images and execution times
 last_hashes = {}
-last_executions = {app: 0 for app in apps}  # Track when each app last ran
+last_executions = {app: 0 for app in subscribed_apps}  # Track when each app last ran
 
 def get_image_hash(image_path):
     """ Returns a hash of the image file to detect changes. """
@@ -34,9 +45,12 @@ def run_scheduler():
     while True:
         current_time = time.time()
 
-        for app, settings in apps.items():
-            image_path = os.path.expanduser(settings["path"])
-            refresh_rate = settings["refresh_rate"]
+        for app in subscribed_apps:  # Only process subscribed apps
+            if app not in apps:
+                continue  # Skip if the app is not in config
+
+            image_path = os.path.expanduser(apps[app]["path"])
+            refresh_rate = apps[app]["refresh_rate"]
 
             # Check if it's time to refresh this app
             if current_time - last_executions[app] >= refresh_rate:
