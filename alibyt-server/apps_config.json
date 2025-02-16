@@ -1,13 +1,4167 @@
 {
-    "ClockWithSeconds": {
-      "path": "~/AliByt/alibyt-apps/clockwithseconds/clockwithseconds.webp",
-      "refresh_rate": 1,
-      "brightness": 80
+    "zmanim": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/zmanim/zmanim.webp",
+        "refresh_rate": 60,
+        "brightness": 80
     },
-    "NBAScores": {
-      "path": "~/AliByt/alibyt-apps/nbascores/nbascores.webp",
-      "refresh_rate": 120,
-      "brightness": 100
+    "nrlscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nrlscores/nrlscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flalighthouses": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flalighthouses/flalighthouses.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "weathermap": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/weathermap/weathermap.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "indexticker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/indexticker/indexticker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hackneybindicator": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hackneybindicator/hackneybindicator.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mobygames": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mobygames/mobygames.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "developerexcuse": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/developerexcuse/developerexcuse.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "czechianews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/czechianews/czechianews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlebbmale": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlebbmale/skordlebbmale.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "congresswatch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/congresswatch/congresswatch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ilt20cricket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ilt20cricket/ilt20cricket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cpl": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cpl/cpl.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "weathersnapshot": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/weathersnapshot/weathersnapshot.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dcbustimes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dcbustimes/dcbustimes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "adelaidemetro": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/adelaidemetro/adelaidemetro.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wmata_buses": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wmata_buses/wmata_buses.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "menscricket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/menscricket/menscricket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "catfact": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/catfact/catfact.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlefastpitch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlefastpitch/skordlefastpitch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dutchfuzzyclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dutchfuzzyclock/dutchfuzzyclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ordertrends": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ordertrends/ordertrends.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "teslafi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/teslafi/teslafi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "uflscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/uflscores/uflscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cryptotracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cryptotracker/cryptotracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nbascores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nbascores/nbascores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "smoothfm": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/smoothfm/smoothfm.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lordoftherings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lordoftherings/lordoftherings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nycbus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nycbus/nycbus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hrbfc": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hrbfc/hrbfc.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "awair": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/awair/awair.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "transsee": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/transsee/transsee.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "githubrepo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/githubrepo/githubrepo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "accuweather": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/accuweather/accuweather.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nswfuelcheck": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nswfuelcheck/nswfuelcheck.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "git_commit_humor": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/git_commit_humor/git_commit_humor.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "yulelog": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/yulelog/yulelog.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "xscreensaver": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/xscreensaver/xscreensaver.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sobrietycounter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sobrietycounter/sobrietycounter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ctabustracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ctabustracker/ctabustracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "showtime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/showtime/showtime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "g35": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/g35/g35.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "weightgurus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/weightgurus/weightgurus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sportsrankings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sportsrankings/sportsrankings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "testpatterns": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/testpatterns/testpatterns.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "spanishwotd": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/spanishwotd/spanishwotd.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "splat3challenges": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/splat3challenges/splat3challenges.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "earthquakemap": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/earthquakemap/earthquakemap.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tidclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tidclock/tidclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "valyrianglyphs": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/valyrianglyphs/valyrianglyphs.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "islamicprayer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/islamicprayer/islamicprayer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "datetimeclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/datetimeclock/datetimeclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "traffic": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/traffic/traffic.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "capital_bikeshare": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/capital_bikeshare/capital_bikeshare.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ambientweather": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ambientweather/ambientweather.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "indegostations": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/indegostations/indegostations.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "summercountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/summercountdown/summercountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "localtides": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/localtides/localtides.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "zenhub": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/zenhub/zenhub.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rssmiscfeeds": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rssmiscfeeds/rssmiscfeeds.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "isitchristmas": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/isitchristmas/isitchristmas.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "statesvisited": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/statesvisited/statesvisited.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nowspinning": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nowspinning/nowspinning.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tankerkoenig": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tankerkoenig/tankerkoenig.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "espnnews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/espnnews/espnnews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "raafuelwatch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/raafuelwatch/raafuelwatch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "company_clock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/company_clock/company_clock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "soundtransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/soundtransit/soundtransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "readingchallenge": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/readingchallenge/readingchallenge.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mnmetrotransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mnmetrotransit/mnmetrotransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "comed_price": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/comed_price/comed_price.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "onthisday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/onthisday/onthisday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wqxr": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wqxr/wqxr.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "evcc": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/evcc/evcc.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nhllive": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nhllive/nhllive.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pokedexplus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pokedexplus/pokedexplus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ntsradio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ntsradio/ntsradio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solartimeclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solartimeclock/solartimeclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mtgdiscover": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mtgdiscover/mtgdiscover.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chi-l-track": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chi-l-track/chi-l-track.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "iss": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/iss/iss.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fitbitweight": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fitbitweight/fitbitweight.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "relay_fm_live": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/relay_fm_live/relay_fm_live.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "brawlstarsmaps": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/brawlstarsmaps/brawlstarsmaps.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flyio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flyio/flyio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "moviequotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/moviequotes/moviequotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solaredgemonitor": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solaredgemonitor/solaredgemonitor.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "howoldami": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/howoldami/howoldami.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "neotrack": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/neotrack/neotrack.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stockvalue": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stockvalue/stockvalue.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "roomba": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/roomba/roomba.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "roblox": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/roblox/roblox.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "airquality": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/airquality/airquality.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rocketleaguestats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rocketleaguestats/rocketleaguestats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "jokesjokeapi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/jokesjokeapi/jokesjokeapi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pattersontimes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pattersontimes/pattersontimes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gw2_fractals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gw2_fractals/gw2_fractals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dailycountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dailycountdown/dailycountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "indycar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/indycar/indycar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flipclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flipclock/flipclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solarweatherclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solarweatherclock/solarweatherclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hurricanetracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hurricanetracker/hurricanetracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pulseprice": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pulseprice/pulseprice.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "isstracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/isstracker/isstracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "kielferry": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/kielferry/kielferry.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cflscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cflscores/cflscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pagerduty": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pagerduty/pagerduty.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "teslasolar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/teslasolar/teslasolar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fivesomewhere": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fivesomewhere/fivesomewhere.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sffogtoday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sffogtoday/sffogtoday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pulsetracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pulsetracker/pulsetracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "airthings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/airthings/airthings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "biblevotd": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/biblevotd/biblevotd.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "quoteoftheday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/quoteoftheday/quoteoftheday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stackernews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stackernews/stackernews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pleasestandby": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pleasestandby/pleasestandby.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "noaabuoy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/noaabuoy/noaabuoy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "militaryranks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/militaryranks/militaryranks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dailyhoroscope": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dailyhoroscope/dailyhoroscope.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "homefiniti": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/homefiniti/homefiniti.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "starfield": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/starfield/starfield.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hanukkah": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hanukkah/hanukkah.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nfldivstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nfldivstandings/nfldivstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "aflscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/aflscores/aflscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gcdailypick": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gcdailypick/gcdailypick.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nationalday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nationalday/nationalday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "telegram": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/telegram/telegram.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "clashclanstrophy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/clashclanstrophy/clashclanstrophy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lifeclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lifeclock/lifeclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "goldpriceticker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/goldpriceticker/goldpriceticker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ffxiv_character": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ffxiv_character/ffxiv_character.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "climateclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/climateclock/climateclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mctstracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mctstracker/mctstracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "npr": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/npr/npr.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pbjellytime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pbjellytime/pbjellytime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "defector": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/defector/defector.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nhdesdata": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nhdesdata/nhdesdata.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "beattime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/beattime/beattime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "weatherdashboard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/weatherdashboard/weatherdashboard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "trambyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/trambyt/trambyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaawstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaawstandings/ncaawstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "btcmoscowtime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/btcmoscowtime/btcmoscowtime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "minionsclapping": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/minionsclapping/minionsclapping.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nationalParks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nationalParks/nationalParks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "clockbyhenry": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/clockbyhenry/clockbyhenry.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "topcryptoprices": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/topcryptoprices/topcryptoprices.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bitcointicker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bitcointicker/bitcointicker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "swedishnameday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/swedishnameday/swedishnameday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "superbowl": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/superbowl/superbowl.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pihole": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pihole/pihole.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pull_request_status": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pull_request_status/pull_request_status.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lastfm": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lastfm/lastfm.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "petitionsplease": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/petitionsplease/petitionsplease.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ipl": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ipl/ipl.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "slippirank": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/slippirank/slippirank.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "timer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/timer/timer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "faadelays": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/faadelays/faadelays.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ifparank": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ifparank/ifparank.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tidbytapptrack": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tidbytapptrack/tidbytapptrack.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "progressclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/progressclock/progressclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tubestatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tubestatus/tubestatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nauticalflags": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nauticalflags/nauticalflags.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "worldclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/worldclock/worldclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "abcradio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/abcradio/abcradio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "instagram": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/instagram/instagram.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "vgknextgame": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/vgknextgame/vgknextgame.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fbw-flight-stats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fbw-flight-stats/fbw-flight-stats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "daystoxmas": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/daystoxmas/daystoxmas.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "letterboxd": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/letterboxd/letterboxd.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "happypride": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/happypride/happypride.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skynews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skynews/skynews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "purpleair": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/purpleair/purpleair.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "arcadeclassics": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/arcadeclassics/arcadeclassics.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "northernlights": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/northernlights/northernlights.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "unixepochclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/unixepochclock/unixepochclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "justfortoday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/justfortoday/justfortoday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "knmialert": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/knmialert/knmialert.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ctaltracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ctaltracker/ctaltracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "halloweencountdn": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/halloweencountdn/halloweencountdn.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "planesoverhead": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/planesoverhead/planesoverhead.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stateflags": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stateflags/stateflags.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ctquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ctquotes/ctquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nextdns": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nextdns/nextdns.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shopifyanimation": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shopifyanimation/shopifyanimation.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wordoftheday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wordoftheday/wordoftheday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wowcharacterstats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wowcharacterstats/wowcharacterstats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nightscout": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nightscout/nightscout.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hexdailystats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hexdailystats/hexdailystats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dailyreminder": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dailyreminder/dailyreminder.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "phaseofmoon": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/phaseofmoon/phaseofmoon.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "merakiusage": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/merakiusage/merakiusage.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nft": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nft/nft.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "espnfantasyfootball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/espnfantasyfootball/espnfantasyfootball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "isaacdance": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/isaacdance/isaacdance.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "militarynews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/militarynews/militarynews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "valorantstats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/valorantstats/valorantstats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cpblLivescore": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cpblLivescore/cpblLivescore.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dcnexttrain": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dcnexttrain/dcnexttrain.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "divvy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/divvy/divvy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "xflscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/xflscores/xflscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "costcalculator": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/costcalculator/costcalculator.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wsjnews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wsjnews/wsjnews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nrlladder": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nrlladder/nrlladder.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "opnvaustria": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/opnvaustria/opnvaustria.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "top10books": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/top10books/top10books.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "denser_bart": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/denser_bart/denser_bart.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "permtimeline": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/permtimeline/permtimeline.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlct20": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlct20/mlct20.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stadiumtracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stadiumtracker/stadiumtracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "moneymade": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/moneymade/moneymade.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "qbittorrent": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/qbittorrent/qbittorrent.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sandiegotrolley": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sandiegotrolley/sandiegotrolley.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "guardiannews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/guardiannews/guardiannews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wikifeatimage": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wikifeatimage/wikifeatimage.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "surfforecast": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/surfforecast/surfforecast.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "weatherclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/weatherclock/weatherclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tempest": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tempest/tempest.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cellularautomata": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cellularautomata/cellularautomata.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "javelexi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/javelexi/javelexi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stockdata": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stockdata/stockdata.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chemicalelements": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chemicalelements/chemicalelements.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ukpolling": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ukpolling/ukpolling.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pslcricket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pslcricket/pslcricket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "londonbusstop": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/londonbusstop/londonbusstop.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dateprogress": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dateprogress/dateprogress.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cricketworldcup": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cricketworldcup/cricketworldcup.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skireport": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skireport/skireport.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nycairquality": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nycairquality/nycairquality.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sverigesradio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sverigesradio/sverigesradio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "coingeckoprice": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/coingeckoprice/coingeckoprice.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "countdownclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/countdownclock/countdownclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ethstaker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ethstaker/ethstaker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "literatureclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/literatureclock/literatureclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "noaatides": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/noaatides/noaatides.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mbta": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mbta/mbta.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wfmu": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wfmu/wfmu.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bkkschedule": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bkkschedule/bkkschedule.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "formula1": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/formula1/formula1.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "airnow": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/airnow/airnow.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "taxiwaysigns": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/taxiwaysigns/taxiwaysigns.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlebbfem": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlebbfem/skordlebbfem.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "deathvalleytemp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/deathvalleytemp/deathvalleytemp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "apitext": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/apitext/apitext.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "OctoWatts": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/OctoWatts/OctoWatts.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "spotthestation": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/spotthestation/spotthestation.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fido": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fido/fido.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "web3counter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/web3counter/web3counter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pokedex": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pokedex/pokedex.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "positivequote": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/positivequote/positivequote.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nowshowing": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nowshowing/nowshowing.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "githubunread": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/githubunread/githubunread.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bibleverse": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bibleverse/bibleverse.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sfbayferry": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sfbayferry/sfbayferry.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "satoshiradio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/satoshiradio/satoshiradio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaawscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaawscores/ncaawscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mathclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mathclock/mathclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "moonphase": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/moonphase/moonphase.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mayacalendar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mayacalendar/mayacalendar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbleaders": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbleaders/mlbleaders.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "corporatebsgen": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/corporatebsgen/corporatebsgen.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "meeting_stats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/meeting_stats/meeting_stats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "divbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/divbyt/divbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hashrate": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hashrate/hashrate.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "powerball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/powerball/powerball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tidbytclocks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tidbytclocks/tidbytclocks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "enphasesolar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/enphasesolar/enphasesolar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wantedposter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wantedposter/wantedposter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tetrisclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tetrisclock/tetrisclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "poktstats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/poktstats/poktstats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bblcricket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bblcricket/bblcricket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randomnumbers": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randomnumbers/randomnumbers.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaafstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaafstandings/ncaafstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "jacket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/jacket/jacket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "melbournetrains": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/melbournetrains/melbournetrains.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tencommandments": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tencommandments/tencommandments.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wtatennis": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wtatennis/wtatennis.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "spacexlaunch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/spacexlaunch/spacexlaunch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlesoftball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlesoftball/skordlesoftball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "librenmsdevices": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/librenmsdevices/librenmsdevices.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mempool": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mempool/mempool.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "soccersingle": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/soccersingle/soccersingle.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "viepubltransp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/viepubltransp/viepubltransp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lightningnode": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lightningnode/lightningnode.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "newjerseypath": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/newjerseypath/newjerseypath.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "vergetaglines": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/vergetaglines/vergetaglines.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hassgraph": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hassgraph/hassgraph.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fortnitestore": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fortnitestore/fortnitestore.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "datadogmonitors": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/datadogmonitors/datadogmonitors.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "azhighwaysigns": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/azhighwaysigns/azhighwaysigns.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "diescoreboardgt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/diescoreboardgt/diescoreboardgt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nhlscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nhlscores/nhlscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "indego": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/indego/indego.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "meteireann": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/meteireann/meteireann.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solarelevation": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solarelevation/solarelevation.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lifxlights": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lifxlights/lifxlights.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "archerdog": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/archerdog/archerdog.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nws_live_forecast": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nws_live_forecast/nws_live_forecast.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "minecraftrealms": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/minecraftrealms/minecraftrealms.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nobsbitcoin": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nobsbitcoin/nobsbitcoin.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mindthegap": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mindthegap/mindthegap.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "belifeed": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/belifeed/belifeed.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wordlebyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wordlebyt/wordlebyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bestpicturepicker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bestpicturepicker/bestpicturepicker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "preciousmetals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/preciousmetals/preciousmetals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "steam_plus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/steam_plus/steam_plus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ifpaevents": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ifpaevents/ifpaevents.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "marketstack": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/marketstack/marketstack.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sliverpizza": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sliverpizza/sliverpizza.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "splatoon3stages": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/splatoon3stages/splatoon3stages.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "amazing": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/amazing/amazing.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "milbscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/milbscores/milbscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tessie": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tessie/tessie.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bikeshare": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bikeshare/bikeshare.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "canvas": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/canvas/canvas.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "natdex": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/natdex/natdex.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tartan": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tartan/tartan.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "todayinhistory": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/todayinhistory/todayinhistory.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dolarblue": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dolarblue/dolarblue.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "holidays": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/holidays/holidays.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hassentity": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hassentity/hassentity.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solaredgeprod": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solaredgeprod/solaredgeprod.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "frenchwotd": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/frenchwotd/frenchwotd.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wnyc": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wnyc/wnyc.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "verticalmessage": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/verticalmessage/verticalmessage.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sportsscoreboard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sportsscoreboard/sportsscoreboard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mongodbnotify": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mongodbnotify/mongodbnotify.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wienerlinieninfo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wienerlinieninfo/wienerlinieninfo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "buienradar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/buienradar/buienradar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randomcats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randomcats/randomcats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wsonedevbytype": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wsonedevbytype/wsonedevbytype.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "opmstatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/opmstatus/opmstatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "onepiecebdays": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/onepiecebdays/onepiecebdays.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaamscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaamscores/ncaamscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "daystostpats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/daystostpats/daystostpats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "euromillions": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/euromillions/euromillions.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wifiqrcode": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wifiqrcode/wifiqrcode.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cltlightrail": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cltlightrail/cltlightrail.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "countupclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/countupclock/countupclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flags": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flags/flags.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "worldcapitals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/worldcapitals/worldcapitals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "thanksgivingday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/thanksgivingday/thanksgivingday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "playdatesales": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/playdatesales/playdatesales.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "babyage": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/babyage/babyage.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "spectro_cloud_clock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/spectro_cloud_clock/spectro_cloud_clock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skynewsrss": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skynewsrss/skynewsrss.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tiddlysynth": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tiddlysynth/tiddlysynth.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "happyhour": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/happyhour/happyhour.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "githubstargazers": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/githubstargazers/githubstargazers.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "movienight": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/movienight/movienight.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gitlabissues": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gitlabissues/gitlabissues.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "textbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/textbyt/textbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "btcdifficulty": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/btcdifficulty/btcdifficulty.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "datadogcharts": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/datadogcharts/datadogcharts.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "vipabfahrten": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/vipabfahrten/vipabfahrten.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cranimechecker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cranimechecker/cranimechecker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "vidiotscalendar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/vidiotscalendar/vidiotscalendar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "yearprogress": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/yearprogress/yearprogress.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "overwatch_meta": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/overwatch_meta/overwatch_meta.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hassentitylist": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hassentitylist/hassentitylist.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pinballmap": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pinballmap/pinballmap.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "idlegardener": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/idlegardener/idlegardener.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "librenmsalerts": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/librenmsalerts/librenmsalerts.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "accidentfreedays": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/accidentfreedays/accidentfreedays.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "priceisright": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/priceisright/priceisright.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "usmortgagerates": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/usmortgagerates/usmortgagerates.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "metar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/metar/metar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "netatmo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/netatmo/netatmo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "minecraftserver": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/minecraftserver/minecraftserver.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "trimetstops": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/trimetstops/trimetstops.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stonks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stonks/stonks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dwheadline": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dwheadline/dwheadline.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ukelections": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ukelections/ukelections.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tidalgraph": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tidalgraph/tidalgraph.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "twsestock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/twsestock/twsestock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "launchcountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/launchcountdown/launchcountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nesquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nesquotes/nesquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "compactstocks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/compactstocks/compactstocks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "septaregionalrail": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/septaregionalrail/septaregionalrail.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "coinprices": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/coinprices/coinprices.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wnbascores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wnbascores/wnbascores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "subreddit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/subreddit/subreddit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "snake2": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/snake2/snake2.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "azurestatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/azurestatus/azurestatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "usdebtclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/usdebtclock/usdebtclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "abstractclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/abstractclock/abstractclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "melbournebuses": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/melbournebuses/melbournebuses.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sleeperfantasyfootball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sleeperfantasyfootball/sleeperfantasyfootball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "redditrplace": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/redditrplace/redditrplace.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "purduebasketball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/purduebasketball/purduebasketball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "usgsearthquakes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/usgsearthquakes/usgsearthquakes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skybyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skybyt/skybyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lovelandwebcams": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lovelandwebcams/lovelandwebcams.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mercuryretrograde": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mercuryretrograde/mercuryretrograde.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tennisrankings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tennisrankings/tennisrankings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "aquarium": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/aquarium/aquarium.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mtabus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mtabus/mtabus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "multipleimages": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/multipleimages/multipleimages.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fullybinarytime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fullybinarytime/fullybinarytime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "usyieldcurve": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/usyieldcurve/usyieldcurve.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "playingoncapital": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/playingoncapital/playingoncapital.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "us_polling_average": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/us_polling_average/us_polling_average.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gapilotbuddy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gapilotbuddy/gapilotbuddy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cbcrssfeed": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cbcrssfeed/cbcrssfeed.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fishbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fishbyt/fishbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "breakingbad": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/breakingbad/breakingbad.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fireworks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fireworks/fireworks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "friendsquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/friendsquotes/friendsquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaabscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaabscores/ncaabscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "visibleplanets": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/visibleplanets/visibleplanets.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "twbaseballcpbl": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/twbaseballcpbl/twbaseballcpbl.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wsonedevices": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wsonedevices/wsonedevices.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "atptennis": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/atptennis/atptennis.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "melbournetrams": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/melbournetrams/melbournetrams.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "indianews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/indianews/indianews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "murphyusagas": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/murphyusagas/murphyusagas.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlsscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlsscores/mlsscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "parkwaittimes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/parkwaittimes/parkwaittimes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nextufc": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nextufc/nextufc.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "costcogas": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/costcogas/costcogas.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mnlightrail": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mnlightrail/mnlightrail.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gvbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gvbyt/gvbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "whatthecommit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/whatthecommit/whatthecommit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nesclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nesclock/nesclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "coinbase": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/coinbase/coinbase.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "weatherstem": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/weatherstem/weatherstem.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "aflladder": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/aflladder/aflladder.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "afl": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/afl/afl.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "noderunners": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/noderunners/noderunners.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "warframecycles": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/warframecycles/warframecycles.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "officestatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/officestatus/officestatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cpblscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cpblscores/cpblscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nhlstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nhlstandings/nhlstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "helldivers2": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/helldivers2/helldivers2.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "homerhiding": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/homerhiding/homerhiding.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chartmogularr": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chartmogularr/chartmogularr.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solarpowerwall": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solarpowerwall/solarpowerwall.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "timeandweather": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/timeandweather/timeandweather.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "worldtides": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/worldtides/worldtides.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "njtransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/njtransit/njtransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "yahoofantasybaseball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/yahoofantasybaseball/yahoofantasybaseball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "thunderball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/thunderball/thunderball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "airbnbcalendar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/airbnbcalendar/airbnbcalendar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "victron": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/victron/victron.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shabbat": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shabbat/shabbat.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "avatarsinpixels": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/avatarsinpixels/avatarsinpixels.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "slippistats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/slippistats/slippistats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "splatoon3schedule": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/splatoon3schedule/splatoon3schedule.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "seinfeldquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/seinfeldquotes/seinfeldquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "peanutspictures": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/peanutspictures/peanutspictures.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "isslocation": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/isslocation/isslocation.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skicolorado": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skicolorado/skicolorado.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "digitalrain": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/digitalrain/digitalrain.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "uv": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/uv/uv.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "astropicofday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/astropicofday/astropicofday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bbcradio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bbcradio/bbcradio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "meh": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/meh/meh.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "outlookcalendar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/outlookcalendar/outlookcalendar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "xtrabyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/xtrabyt/xtrabyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "testcricket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/testcricket/testcricket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "todoistnext": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/todoistnext/todoistnext.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sailgp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sailgp/sailgp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randomdogs": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randomdogs/randomdogs.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mantle": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mantle/mantle.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "planetarium": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/planetarium/planetarium.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "prayer_times": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/prayer_times/prayer_times.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nearearthobjs": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nearearthobjs/nearearthobjs.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nextevent": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nextevent/nextevent.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "leaguechamps": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/leaguechamps/leaguechamps.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "newapps": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/newapps/newapps.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mealviewer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mealviewer/mealviewer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "actransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/actransit/actransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "aadailyreflect": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/aadailyreflect/aadailyreflect.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rachio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rachio/rachio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rawmetar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rawmetar/rawmetar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "trakt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/trakt/trakt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "candystatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/candystatus/candystatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ynab": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ynab/ynab.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "updownio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/updownio/updownio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sportsscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sportsscores/sportsscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "octoprint": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/octoprint/octoprint.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "trivia": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/trivia/trivia.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shopifychart": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shopifychart/shopifychart.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nova": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nova/nova.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaafscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaafscores/ncaafscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "clockwithseconds": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/clockwithseconds/clockwithseconds.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stop_hitting_mets": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stop_hitting_mets/stop_hitting_mets.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "theguardiannews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/theguardiannews/theguardiannews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solaredge": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solaredge/solaredge.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "twitch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/twitch/twitch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "discordmembers": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/discordmembers/discordmembers.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "life": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/life/life.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "eplscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/eplscores/eplscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "snakeclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/snakeclock/snakeclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bgglastplay": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bgglastplay/bgglastplay.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fireflies": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fireflies/fireflies.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "birdbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/birdbyt/birdbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "circleci": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/circleci/circleci.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "soccertables": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/soccertables/soccertables.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mhkyscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mhkyscores/mhkyscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bored": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bored/bored.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ordermoments": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ordermoments/ordermoments.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlefbaseball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlefbaseball/skordlefbaseball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlevolleyball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlevolleyball/skordlevolleyball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "publicapi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/publicapi/publicapi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "packagetracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/packagetracker/packagetracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "plexshowtime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/plexshowtime/plexshowtime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "diablo4events": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/diablo4events/diablo4events.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "onair": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/onair/onair.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nouns": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nouns/nouns.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlescores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlescores/skordlescores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "plexrecentlyadded": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/plexrecentlyadded/plexrecentlyadded.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mondrianclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mondrianclock/mondrianclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "visualizercoffee": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/visualizercoffee/visualizercoffee.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sbbtimetable": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sbbtimetable/sbbtimetable.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "analogtime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/analogtime/analogtime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mastodonfollows": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mastodonfollows/mastodonfollows.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "incomecounter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/incomecounter/incomecounter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stripespotlight": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stripespotlight/stripespotlight.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tilthydrometer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tilthydrometer/tilthydrometer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "esbnyccolors": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/esbnyccolors/esbnyccolors.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "simplescoreboard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/simplescoreboard/simplescoreboard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "trimetarrivals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/trimetarrivals/trimetarrivals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "surflive": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/surflive/surflive.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "soccerwomens": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/soccerwomens/soccerwomens.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nbastandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nbastandings/nbastandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "criticalchicken": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/criticalchicken/criticalchicken.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "todoist": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/todoist/todoist.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sa20cricket": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sa20cricket/sa20cricket.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "biorhythm": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/biorhythm/biorhythm.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "setforlife": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/setforlife/setforlife.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "craftnft": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/craftnft/craftnft.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "apiimage": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/apiimage/apiimage.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaasoftball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaasoftball/ncaasoftball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nationalrail": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nationalrail/nationalrail.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lichesscorrespond": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lichesscorrespond/lichesscorrespond.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nascarnextrace": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nascarnextrace/nascarnextrace.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "customstatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/customstatus/customstatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "atcradar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/atcradar/atcradar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "braemarscreen": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/braemarscreen/braemarscreen.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "koppscustard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/koppscustard/koppscustard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "btcfagi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/btcfagi/btcfagi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "exotic_clocks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/exotic_clocks/exotic_clocks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fredscanneralert": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fredscanneralert/fredscanneralert.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "currencyconverter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/currencyconverter/currencyconverter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chchbins": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chchbins/chchbins.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rantinglynews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rantinglynews/rantinglynews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "berlintransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/berlintransit/berlintransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fineart": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fineart/fineart.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "destiny2stats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/destiny2stats/destiny2stats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "redditimages": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/redditimages/redditimages.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pollencount": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pollencount/pollencount.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "supermariokart": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/supermariokart/supermariokart.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbscores/mlbscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "haikuboxlinker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/haikuboxlinker/haikuboxlinker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randomslackmoji": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randomslackmoji/randomslackmoji.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "kqac": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/kqac/kqac.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "blackout": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/blackout/blackout.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sunrisesunset": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sunrisesunset/sunrisesunset.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "charlestownferry": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/charlestownferry/charlestownferry.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lobsterfacts": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lobsterfacts/lobsterfacts.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "octopus_agile": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/octopus_agile/octopus_agile.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "us_electoral_forecast": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/us_electoral_forecast/us_electoral_forecast.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "whosthatpokemon": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/whosthatpokemon/whosthatpokemon.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sonicthehedgehogclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sonicthehedgehogclock/sonicthehedgehogclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pixelgreet": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pixelgreet/pixelgreet.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fpltracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fpltracker/fpltracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ohhighwaysigns": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ohhighwaysigns/ohhighwaysigns.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hexcolorclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hexcolorclock/hexcolorclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordleslowpitch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordleslowpitch/skordleslowpitch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "siderealtimeclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/siderealtimeclock/siderealtimeclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tar1090adsb": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tar1090adsb/tar1090adsb.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tidesandtemp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tidesandtemp/tidesandtemp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mbtanewtrains": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mbtanewtrains/mbtanewtrains.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mayaglyphs": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mayaglyphs/mayaglyphs.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chesscomelo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chesscomelo/chesscomelo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fortnitewins": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fortnitewins/fortnitewins.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cellartrackerrtd": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cellartrackerrtd/cellartrackerrtd.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lastfmstats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lastfmstats/lastfmstats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hackernews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hackernews/hackernews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hasssolar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hasssolar/hasssolar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "borisbikes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/borisbikes/borisbikes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "baywheels": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/baywheels/baywheels.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "olympic_medals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/olympic_medals/olympic_medals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tarotcards": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tarotcards/tarotcards.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "goodservice": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/goodservice/goodservice.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nhlnextgame": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nhlnextgame/nhlnextgame.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "runescape": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/runescape/runescape.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tvstatic": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tvstatic/tvstatic.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tindiesales": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tindiesales/tindiesales.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "goosefm": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/goosefm/goosefm.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "edinburghbus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/edinburghbus/edinburghbus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flightoverhead": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flightoverhead/flightoverhead.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "marvelfacts": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/marvelfacts/marvelfacts.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "steam": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/steam/steam.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "digibyteprice": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/digibyteprice/digibyteprice.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bgghotness": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bgghotness/bgghotness.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "powerwall": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/powerwall/powerwall.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nsbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nsbyt/nsbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "inseason": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/inseason/inseason.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "analogclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/analogclock/analogclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tube": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tube/tube.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "co2signal": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/co2signal/co2signal.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "caltrain": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/caltrain/caltrain.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "espnffstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/espnffstandings/espnffstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "githubstatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/githubstatus/githubstatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rules4life": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rules4life/rules4life.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "yahoofantasyfootball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/yahoofantasyfootball/yahoofantasyfootball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "qlock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/qlock/qlock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gitlabpipelinestatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gitlabpipelinestatus/gitlabpipelinestatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "leetcodestats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/leetcodestats/leetcodestats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "foxnews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/foxnews/foxnews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "steamtopsellers": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/steamtopsellers/steamtopsellers.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "3cellularautomata": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/3cellularautomata/3cellularautomata.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "todayonkawara": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/todayonkawara/todayonkawara.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "busytube": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/busytube/busytube.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fedexcup": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fedexcup/fedexcup.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "parktime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/parktime/parktime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "customquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/customquotes/customquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bluebomber": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bluebomber/bluebomber.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stripesales": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stripesales/stripesales.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "babysteps": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/babysteps/babysteps.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "vitaloccupancy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/vitaloccupancy/vitaloccupancy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gartnernews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gartnernews/gartnernews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shopifymemories": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shopifymemories/shopifymemories.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "vatsimapp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/vatsimapp/vatsimapp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "maze": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/maze/maze.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "betteroncall": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/betteroncall/betteroncall.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "underwaterclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/underwaterclock/underwaterclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stockspotlight": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stockspotlight/stockspotlight.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "houstonmetro": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/houstonmetro/houstonmetro.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "customclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/customclock/customclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dailykanji": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dailykanji/dailykanji.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stupidchat": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stupidchat/stupidchat.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "schopenhauer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/schopenhauer/schopenhauer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "liveontwitch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/liveontwitch/liveontwitch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "newyearscountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/newyearscountdown/newyearscountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tempgraph": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tempgraph/tempgraph.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pomodoro": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pomodoro/pomodoro.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "drawbridgestatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/drawbridgestatus/drawbridgestatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nationaltoday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nationaltoday/nationaltoday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "virtualpets": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/virtualpets/virtualpets.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "detailedmetar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/detailedmetar/detailedmetar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "marsclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/marsclock/marsclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "msteamsstatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/msteamsstatus/msteamsstatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cta_train_tracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cta_train_tracker/cta_train_tracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "feelslike": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/feelslike/feelslike.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dothrakiwotd": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dothrakiwotd/dothrakiwotd.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nixelclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nixelclock/nixelclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nflstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nflstandings/nflstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "switchboard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/switchboard/switchboard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sportsstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sportsstandings/sportsstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ncaamstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ncaamstandings/ncaamstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shipweatherclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shipweatherclock/shipweatherclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "footballtable": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/footballtable/footballtable.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chicagotribune": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chicagotribune/chicagotribune.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "npmpackages": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/npmpackages/npmpackages.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "madisonmetrobus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/madisonmetrobus/madisonmetrobus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gradientclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gradientclock/gradientclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chrono24": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chrono24/chrono24.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "severewxalertsusa": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/severewxalertsusa/severewxalertsusa.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fuzzyclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fuzzyclock/fuzzyclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tcatbusarrivals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tcatbusarrivals/tcatbusarrivals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "iconote": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/iconote/iconote.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "unleashed": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/unleashed/unleashed.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "desknametag": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/desknametag/desknametag.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bdaycountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bdaycountdown/bdaycountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbdivstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbdivstandings/mlbdivstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tixclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tixclock/tixclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "skordlesbaseball": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/skordlesbaseball/skordlesbaseball.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "githubactivity": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/githubactivity/githubactivity.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "calendars": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/calendars/calendars.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mtatraintime": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mtatraintime/mtatraintime.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dayssince": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dayssince/dayssince.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "la_metro": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/la_metro/la_metro.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "csvviewer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/csvviewer/csvviewer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "acfilmshowtimes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/acfilmshowtimes/acfilmshowtimes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dvdlogo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dvdlogo/dvdlogo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wbcscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wbcscores/wbcscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nationallottery": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nationallottery/nationallottery.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lametrostop": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lametrostop/lametrostop.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "thisisfine": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/thisisfine/thisisfine.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gradient": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gradient/gradient.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "paraland": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/paraland/paraland.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "soccermens": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/soccermens/soccermens.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "theysaidso": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/theysaidso/theysaidso.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "seattletransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/seattletransit/seattletransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hubblelive": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hubblelive/hubblelive.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stockticker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stockticker/stockticker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "strava": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/strava/strava.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "martamap": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/martamap/martamap.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wowtoken": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wowtoken/wowtoken.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "advice": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/advice/advice.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nyancat": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nyancat/nyancat.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "anyprogressbar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/anyprogressbar/anyprogressbar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "synthsolar": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/synthsolar/synthsolar.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "acnhvillager": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/acnhvillager/acnhvillager.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hvvdepartures": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hvvdepartures/hvvdepartures.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tagesschau-news": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tagesschau-news/tagesschau-news.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "multicountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/multicountdown/multicountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lifecounter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lifecounter/lifecounter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "thingspeak": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/thingspeak/thingspeak.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sort": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sort/sort.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "marveloftheday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/marveloftheday/marveloftheday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bofhquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bofhquotes/bofhquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "womenst20wc": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/womenst20wc/womenst20wc.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "emojilingo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/emojilingo/emojilingo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chessviewer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chessviewer/chessviewer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stockfagi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stockfagi/stockfagi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "langtonsant": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/langtonsant/langtonsant.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "finevent": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/finevent/finevent.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "todoistroutines": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/todoistroutines/todoistroutines.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cpblscores-betsapi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cpblscores-betsapi/cpblscores-betsapi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solaredgeoverview": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solaredgeoverview/solaredgeoverview.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "citibikebymk": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/citibikebymk/citibikebymk.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "snake": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/snake/snake.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbnextgames": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbnextgames/mlbnextgames.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "loterias": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/loterias/loterias.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "kexplaying": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/kexplaying/kexplaying.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "stepcounter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/stepcounter/stepcounter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "solarmanagerch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/solarmanagerch/solarmanagerch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbstandings": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbstandings/mlbstandings.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "jeopardy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/jeopardy/jeopardy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "christmascountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/christmascountdown/christmascountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ouraring": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ouraring/ouraring.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "thisdayhistory": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/thisdayhistory/thisdayhistory.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "todoisttasks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/todoisttasks/todoisttasks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "checkiday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/checkiday/checkiday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "plausibleanalytics": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/plausibleanalytics/plausibleanalytics.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "snyk": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/snyk/snyk.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "unsplash": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/unsplash/unsplash.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "partnermetrics": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/partnermetrics/partnermetrics.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nolayingup": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nolayingup/nolayingup.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "carenewables": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/carenewables/carenewables.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "producthunt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/producthunt/producthunt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flightsnearby": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flightsnearby/flightsnearby.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fairfaxconnector": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fairfaxconnector/fairfaxconnector.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbmagicnumber": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbmagicnumber/mlbmagicnumber.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "martini": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/martini/martini.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wanikanireminder": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wanikanireminder/wanikanireminder.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "septatransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/septatransit/septatransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fantasynamegen": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fantasynamegen/fantasynamegen.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "colorfulclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/colorfulclock/colorfulclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "envoydesk": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/envoydesk/envoydesk.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mlbwildcardrace": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mlbwildcardrace/mlbwildcardrace.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gptcolor": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gptcolor/gptcolor.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "sfnextmuni": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/sfnextmuni/sfnextmuni.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shopifyorders": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shopifyorders/shopifyorders.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "marioandyoshi": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/marioandyoshi/marioandyoshi.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "trolley_detector": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/trolley_detector/trolley_detector.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "binaryclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/binaryclock/binaryclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shouldideploy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shouldideploy/shouldideploy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "duolingo": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/duolingo/duolingo.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "colorado14ers": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/colorado14ers/colorado14ers.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "genconcountdown": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/genconcountdown/genconcountdown.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nunl": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nunl/nunl.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "finazastocks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/finazastocks/finazastocks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "billboardtop10": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/billboardtop10/billboardtop10.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "zapier": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/zapier/zapier.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "fortnitebrnews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/fortnitebrnews/fortnitebrnews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randomcolors": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randomcolors/randomcolors.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "xboxgamerscore": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/xboxgamerscore/xboxgamerscore.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "f1results": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/f1results/f1results.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "kickstarter": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/kickstarter/kickstarter.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "thingswifesays": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/thingswifesays/thingswifesays.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "restdbiodashboard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/restdbiodashboard/restdbiodashboard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bigbrothernews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bigbrothernews/bigbrothernews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "xboxplaydates": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/xboxplaydates/xboxplaydates.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wikipagetoday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wikipagetoday/wikipagetoday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flightradarfeed": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flightradarfeed/flightradarfeed.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "ogsgamesviewer": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/ogsgamesviewer/ogsgamesviewer.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "minecraftart": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/minecraftart/minecraftart.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "adafruitio": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/adafruitio/adafruitio.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "dense_time_temp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/dense_time_temp/dense_time_temp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nflscores": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nflscores/nflscores.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "burgeroftheday": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/burgeroftheday/burgeroftheday.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "spinbyt": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/spinbyt/spinbyt.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randompokedex": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randompokedex/randompokedex.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "spotifyFriends": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/spotifyFriends/spotifyFriends.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "domewatch": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/domewatch/domewatch.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mvv": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mvv/mvv.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pubgstats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pubgstats/pubgstats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "retrogamegoals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/retrogamegoals/retrogamegoals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "rssreader": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/rssreader/rssreader.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "bigclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/bigclock/bigclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "effheadlines": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/effheadlines/effheadlines.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "tvquotes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/tvquotes/tvquotes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "financialtimes": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/financialtimes/financialtimes.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shopifysales": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shopifysales/shopifysales.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "armageddontrackr": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/armageddontrackr/armageddontrackr.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "chicagodivvy": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/chicagodivvy/chicagodivvy.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "verceldashboard": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/verceldashboard/verceldashboard.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "githubbadge": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/githubbadge/githubbadge.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hilbertclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hilbertclock/hilbertclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "campark": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/campark/campark.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "gradientclock2": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/gradientclock2/gradientclock2.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "t20blast": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/t20blast/t20blast.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "salestrends": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/salestrends/salestrends.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shuffleimages": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shuffleimages/shuffleimages.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pittsburghbuses": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pittsburghbuses/pittsburghbuses.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "universalical": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/universalical/universalical.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pathtrainschedule": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pathtrainschedule/pathtrainschedule.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "houseofcommons": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/houseofcommons/houseofcommons.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flighttracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flighttracker/flighttracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "wordclock": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/wordclock/wordclock.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "partyparrot": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/partyparrot/partyparrot.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pdp11": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pdp11/pdp11.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "randomrecipe": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/randomrecipe/randomrecipe.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "defcon": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/defcon/defcon.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "petpikachu": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/petpikachu/petpikachu.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "hieroglyphs": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/hieroglyphs/hieroglyphs.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pulsechain": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pulsechain/pulsechain.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "obliquestrategies": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/obliquestrategies/obliquestrategies.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "nos": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nos/nos.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lionsbrgstatus": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lionsbrgstatus/lionsbrgstatus.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "lirr": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/lirr/lirr.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "netflixtop10": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/netflixtop10/netflixtop10.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "shopifyneworder": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/shopifyneworder/shopifyneworder.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "timeularactivity": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/timeularactivity/timeularactivity.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "cuneiform": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/cuneiform/cuneiform.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "mayoclinicnews": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/mayoclinicnews/mayoclinicnews.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "flythel": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/flythel/flythel.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "jsondisplay": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/jsondisplay/jsondisplay.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "daynightmap": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/daynightmap/daynightmap.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "btchalving": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/btchalving/btchalving.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "moretransit": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/moretransit/moretransit.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pregnancytracker": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pregnancytracker/pregnancytracker.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "farcasterfollows": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/farcasterfollows/farcasterfollows.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "olympicmedals": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/olympicmedals/olympicmedals.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "pgatour": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/pgatour/pgatour.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "colorblocks": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/colorblocks/colorblocks.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "eventprogress": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/eventprogress/eventprogress.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "motogp": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/motogp/motogp.webp",
+        "refresh_rate": 60,
+        "brightness": 80
+    },
+    "woocommercestats": {
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/woocommercestats/woocommercestats.webp",
+        "refresh_rate": 60,
+        "brightness": 80
     }
 }
-  
