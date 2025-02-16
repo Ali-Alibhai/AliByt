@@ -76,10 +76,11 @@ def run_scheduler():
             image_path = os.path.expanduser(apps[app]["path"])
             refresh_rate = apps[app]["refresh_rate"]
 
-            print(f"Checking app: {app}, Path: {image_path}, Refresh Rate: {refresh_rate}s")  # Debugging
+            
 
             # Check if it's time to refresh this app
             if current_time - last_executions.get(app, 0) >= refresh_rate:
+                print(f"Checking app: {app}, Path: {image_path}, Refresh Rate: {refresh_rate}s")  # Debugging
                 last_executions[app] = current_time  # Update last execution time
 
                 # Get current image hash

@@ -126,7 +126,7 @@
     },
     "nbascores": {
         "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nbascores/nba_scores.webp",
-        "refresh_rate": 60,
+        "refresh_rate": 5,
         "brightness": 80
     },
     "smoothfm": {
