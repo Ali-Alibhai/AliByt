@@ -37,8 +37,6 @@ def subscribe():
 
     app_name = data.get("app")
     available_apps = load_apps_config()
-
-    print("Available Apps:", available_apps)  # Debugging
     print("Current Subscriptions:", subscriptions)  # Debugging
 
     if app_name in available_apps and app_name not in subscriptions["subscribed_apps"]:
