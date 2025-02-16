@@ -50,6 +50,20 @@ def get_image_hash(image_path):
 def run_scheduler():
     """ Runs the scheduler and sends new images only when they change. """
     while True:
+        # Reload subscriptions every cycle
+        try:
+            if os.path.exists(SUBSCRIPTIONS_PATH) and os.path.getsize(SUBSCRIPTIONS_PATH) > 0:
+                with open(SUBSCRIPTIONS_PATH, "r") as f:
+                    subscriptions = json.load(f)
+                    subscribed_apps = set(subscriptions.get("subscribed_apps", []))
+            else:
+                subscribed_apps = set()
+        except json.JSONDecodeError:
+            print("Error: `database.json` is corrupted. Resetting to default.")
+            subscribed_apps = set()
+            with open(SUBSCRIPTIONS_PATH, "w") as f:
+                json.dump({"subscribed_apps": []}, f, indent=4)
+
         current_time = time.time()
 
         for app in subscribed_apps:  # Only process subscribed apps
@@ -60,7 +74,7 @@ def run_scheduler():
             refresh_rate = apps[app]["refresh_rate"]
 
             # Check if it's time to refresh this app
-            if current_time - last_executions[app] >= refresh_rate:
+            if current_time - last_executions.get(app, 0) >= refresh_rate:
                 last_executions[app] = current_time  # Update last execution time
 
                 # Get current image hash
