@@ -44,18 +44,25 @@ def display_images():
     global current_index
     while True:
         if image_queue:
+            print(f"Current Queue: {image_queue}")  # Print the entire queue
             image_path = image_queue[current_index]
+            print(f"Displaying Image: {image_path}")  # Print the image being displayed
+            
             try:
                 image = Image.open(image_path).convert("RGB")
                 image = image.resize((matrix.width, matrix.height))
                 matrix.SetImage(image)
+                print(f"Successfully displayed: {image_path}")
             except Exception as e:
                 print(f"Error displaying image: {e}")
 
             # Cycle to next image
             current_index = (current_index + 1) % len(image_queue)
+        else:
+            print("Image queue is empty!")
 
-        time.sleep(display_speed)
+        time.sleep(display_speed)  # Adjust display time
+
 
 try:
     display_images()
