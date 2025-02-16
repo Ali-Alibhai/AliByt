@@ -96,6 +96,45 @@ def set_client_speed():
 
         return jsonify({"message": f"Client speed updated to {new_speed} seconds"}), 200
     return jsonify({"error": "Invalid speed value"}), 400
+    
+@app.route("/update_app_settings", methods=["POST"])
+def update_app_settings():
+    """ Update brightness or refresh interval for a specific app """
+    data = request.json
+    app_name = data.get("app")
+    new_brightness = data.get("brightness")
+    new_refresh_rate = data.get("refresh_rate")
+
+    # Load current config
+    if os.path.exists(APPS_CONFIG_FILE):
+        with open(APPS_CONFIG_FILE, "r") as f:
+            apps_config = json.load(f)
+    else:
+        return jsonify({"error": "Configuration file not found"}), 500
+
+    # Ensure the app exists
+    if app_name not in apps_config:
+        return jsonify({"error": "App not found"}), 400
+
+    # Update settings if provided
+    if new_brightness is not None:
+        if 0 <= new_brightness <= 100:
+            apps_config[app_name]["brightness"] = new_brightness
+        else:
+            return jsonify({"error": "Brightness must be between 0 and 100"}), 400
+
+    if new_refresh_rate is not None:
+        if new_refresh_rate > 0:
+            apps_config[app_name]["refresh_rate"] = new_refresh_rate
+        else:
+            return jsonify({"error": "Refresh rate must be greater than 0"}), 400
+
+    # Save updated config
+    with open(APPS_CONFIG_FILE, "w") as f:
+        json.dump(apps_config, f, indent=4)
+
+    return jsonify({"message": f"Updated settings for {app_name}"}), 200
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
