@@ -2620,8 +2620,8 @@
         "brightness": 80
     },
     "nbastandings": {
-        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nbastandings/nbastandings.webp",
-        "refresh_rate": 60,
+        "path": "/home/aalibh4/AliByt/alibyt-apps/tidbyt-community/apps/nbastandings/nba_standings.webp",
+        "refresh_rate": 5,
         "brightness": 80
     },
     "criticalchicken": {
