@@ -25,6 +25,7 @@ current_index = 0
 display_speed = 5  # Default 5 seconds per image
 
 def on_message(client, userdata, message):
+    print("new message")
     """ Handles incoming MQTT messages (new images). """
     global image_queue
     data = json.loads(message.payload)
