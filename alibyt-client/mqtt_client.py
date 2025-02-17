@@ -64,11 +64,18 @@ def display_images():
                         frame = frame.resize((matrix.width, matrix.height))
                         matrix.SetImage(frame)
                         time.sleep(frame_delay)  # Adjust timing dynamically
+
+                    # Skip extra sleep after animated image
+                    print(f"Finished animation for {image_path}, moving to next image.")
                 else:
+                    # Regular static image display
                     image = image.convert("RGB")
                     image = image.resize((matrix.width, matrix.height))
                     matrix.SetImage(image)
                     print(f"Successfully displayed: {image_path}")
+
+                    # Sleep only for static images
+                    time.sleep(display_speed)
 
             except Exception as e:
                 print(f"Error displaying image: {e}")
@@ -77,8 +84,6 @@ def display_images():
             current_index = (current_index + 1) % len(image_queue)
         else:
             print("Image queue is empty!")
-
-        time.sleep(display_speed)  # Adjust display time
 
 
 try:
