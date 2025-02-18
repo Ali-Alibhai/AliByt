@@ -7,9 +7,9 @@ from flask import Flask, send_from_directory
 import subprocess
 
 # Config Paths
-CONFIG_PATH = "/home/aalibh4/AliByt/alibyt-server/apps_config.json"
-SUBSCRIPTIONS_PATH = "/home/aalibh4/AliByt/alibyt-server/database.json"
-RENDERED_PATH = "/home/aalibh4/AliByt/alibyt-server/rendered_images"
+CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config.json"
+SUBSCRIPTIONS_PATH = "/home/ali/AliByt/alibyt-server/database.json"
+RENDERED_PATH = "/home/ali/AliByt/alibyt-server/rendered_images"
 IMAGE_SERVER_PORT = 8081  # Port for serving images
 
 # Ensure rendered_images directory exists

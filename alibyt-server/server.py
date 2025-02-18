@@ -13,7 +13,7 @@ DB_FILE = os.path.expanduser("~/AliByt/alibyt-server/database.json")
 # HTTP Server Details
 RHEL_IP = "192.168.2.48" 
 HTTP_PORT = 8080  # The port where your HTTP server runs
-IMAGE_FOLDER = "/home/aalibh4/AliByt/alibyt-server/images"  # Directory where images are stored
+IMAGE_FOLDER = "/home/ali/AliByt/alibyt-server/images"  # Directory where images are stored
 
 # MQTT Setup
 MQTT_BROKER = "localhost"
