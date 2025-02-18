@@ -633,7 +633,7 @@
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/clockbyhenry",
         "app_name": "clock_by_henry.star",
         "photo_name": "clock_by_henry.webp",
-        "refresh_rate": 60
+        "refresh_rate": 50
     },
     "clockwithseconds": {
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/clockwithseconds",
