@@ -61,9 +61,9 @@ def get_image_hash(image_path):
     except FileNotFoundError:
         return None
 
-def render_pixlet_app(app_name, app_path):
+def render_pixlet_app(app_name, app_path, output_name):
     """ Renders a Pixlet app and saves the WebP output. """
-    output_path = os.path.join(RENDERED_PATH, f"{app_name}.webp")
+    output_path = os.path.join(RENDERED_PATH, output_name)
     try:
         subprocess.run(["pixlet", "render", app_path, "-o", output_path], check=True)
         return output_path
@@ -96,9 +96,11 @@ def run_scheduler():
                 print(f"Skipping {app} - Not found in config!")  # Debugging print
                 continue
 
-            app_path = os.path.expanduser(apps[app]["path"])  # Path to Pixlet .star app
-            refresh_rate = apps[app]["refresh_rate"]
-            output_path = os.path.join(RENDERED_PATH, f"{app}.webp")  # Where the rendered image will be stored
+            app_info = apps[app]
+            app_path = os.path.join(app_info["path"], app_info["app_name"])  # Path to Pixlet .star app
+            photo_name = app_info["photo_name"]  # Expected WebP output
+            refresh_rate = app_info["refresh_rate"]
+            output_path = os.path.join(RENDERED_PATH, photo_name)  # Where the rendered image will be stored
 
             # Check if it's time to refresh this app
             if current_time - last_executions.get(app, 0) >= refresh_rate:
@@ -106,7 +108,7 @@ def run_scheduler():
                 last_executions[app] = current_time  # Update last execution time
 
                 # Render Pixlet App
-                rendered_image = render_pixlet_app(app, app_path)
+                rendered_image = render_pixlet_app(app, app_path, photo_name)
 
                 if rendered_image:
                     # Get current image hash
@@ -117,7 +119,7 @@ def run_scheduler():
                         last_hashes[app] = current_hash  # Update last hash
 
                         # Generate URL for hosted image
-                        image_url = f"http://{MQTT_BROKER}:{IMAGE_SERVER_PORT}/images/{app}.webp"
+                        image_url = f"http://{MQTT_BROKER}:{IMAGE_SERVER_PORT}/images/{photo_name}"
 
                         # Send MQTT update
                         client.publish(MQTT_TOPIC, json.dumps({"app": app, "path": image_url}))
