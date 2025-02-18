@@ -10,12 +10,18 @@ app = Flask(__name__)
 APPS_CONFIG_FILE = os.path.expanduser("~/AliByt/alibyt-server/apps_config.json")
 DB_FILE = os.path.expanduser("~/AliByt/alibyt-server/database.json")
 
+# HTTP Server Details
+RHEL_IP = "192.168.2.48" 
+HTTP_PORT = 8080  # The port where your HTTP server runs
+IMAGE_FOLDER = "/home/aalibh4/AliByt/alibyt-server/images"  # Directory where images are stored
+
 # MQTT Setup
 MQTT_BROKER = "localhost"
 MQTT_TOPIC = "alibyt/images"
 
 mqtt_client = mqtt.Client()
 mqtt_client.connect(MQTT_BROKER)
+
 
 # Load app subscriptions
 if os.path.exists(DB_FILE):
@@ -66,19 +72,21 @@ def get_subscriptions():
 
 @app.route("/push_update", methods=["POST"])
 def push_update():
-    """ Push a new image update via MQTT """
+    """ Push a new image update via MQTT, sending a URL instead of a file path """
     data = request.json
     app_name = data.get("app")
 
     available_apps = load_apps_config()
     if app_name in subscriptions["subscribed_apps"] and app_name in available_apps:
-        image_path = os.path.expanduser(available_apps[app_name]["path"])
-        
-        mqtt_message = json.dumps({"app": app_name, "path": image_path})
+        image_filename = os.path.basename(available_apps[app_name]["path"])
+        image_url = f"http://{RHEL_IP}:{HTTP_PORT}/{image_filename}"
+
+        mqtt_message = json.dumps({"app": app_name, "url": image_url})
         mqtt_client.publish(MQTT_TOPIC, mqtt_message)
 
-        return jsonify({"message": f"Update pushed for {app_name}"}), 200
+        return jsonify({"message": f"Update pushed for {app_name}", "url": image_url}), 200
     return jsonify({"error": "App not subscribed or invalid"}), 400
+
 
 @app.route("/set_speed", methods=["POST"])
 def set_client_speed():
