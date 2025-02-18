@@ -639,7 +639,7 @@
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/clockwithseconds",
         "app_name": "clockwithseconds.star",
         "photo_name": "clockwithseconds.webp",
-        "refresh_rate": 60
+        "refresh_rate": 5
     },
     "cltlightrail": {
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/cltlightrail",
@@ -2547,13 +2547,13 @@
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/nbastandings",
         "app_name": "nba_standings.star",
         "photo_name": "nba_standings.webp",
-        "refresh_rate": 60
+        "refresh_rate": 5
     },
     "ncaabscores": {
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/ncaabscores",
         "app_name": "ncaab_scores.star",
         "photo_name": "ncaab_scores.webp",
-        "refresh_rate": 60
+        "refresh_rate": 5
     },
     "ncaafscores": {
         "path": "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps/ncaafscores",
