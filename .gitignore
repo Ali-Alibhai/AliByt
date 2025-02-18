@@ -1,3 +1,5 @@
 *.star
 
 alibyt-apps/tidbyt-community/
+
+alibyt-server/database.json
