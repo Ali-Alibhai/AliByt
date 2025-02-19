@@ -1,16 +1,14 @@
 import json
 import time
 import os
-import hashlib
 import paho.mqtt.client as mqtt
-from flask import Flask, send_from_directory
 import subprocess
+import base64
 
 # Config Paths
 CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config.json"
 SUBSCRIPTIONS_PATH = "/home/ali/AliByt/alibyt-server/database.json"
 RENDERED_PATH = "/home/ali/AliByt/alibyt-server/rendered_images"
-IMAGE_SERVER_PORT = 8081  # Port for serving images
 
 # Ensure rendered_images directory exists
 os.makedirs(RENDERED_PATH, exist_ok=True)
@@ -41,28 +39,20 @@ MQTT_TOPIC = "alibyt/images"
 client = mqtt.Client()
 client.connect(MQTT_BROKER)
 
-# Flask app for hosting images
-app = Flask(__name__)
+# Track last sent images
+last_images = {}
 
-@app.route("/images/<path:filename>")
-def serve_image(filename):
-    """ Serve images from the rendered directory. """
-    return send_from_directory(RENDERED_PATH, filename)
-
-# Track last sent images and execution times
-last_hashes = {}
-last_executions = {app: 0 for app in subscribed_apps}  # Track when each app last ran
-
-def get_image_hash(image_path):
-    """ Returns a hash of the image file to detect changes. """
+def encode_image_to_base64(image_path):
+    """Encodes the image file into a Base64 string."""
     try:
-        with open(image_path, "rb") as f:
-            return hashlib.md5(f.read()).hexdigest()
+        with open(image_path, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode("utf-8")
     except FileNotFoundError:
+        print(f"Error: File not found - {image_path}")
         return None
 
 def render_pixlet_app(app_name, app_path, output_path):
-    """ Renders a Pixlet app and saves the WebP output. """
+    """Renders a Pixlet app and saves the WebP output."""
     try:
         subprocess.run(["pixlet", "render", app_path, "-o", output_path], check=True)
         return output_path
@@ -71,7 +61,7 @@ def render_pixlet_app(app_name, app_path, output_path):
         return None
 
 def run_scheduler():
-    """ Runs the scheduler and renders new images before sending them. """
+    """Runs the scheduler and renders new images before sending them."""
     while True:
         # Reload subscriptions every cycle
         try:
@@ -87,7 +77,6 @@ def run_scheduler():
             with open(SUBSCRIPTIONS_PATH, "w") as f:
                 json.dump({"subscribed_apps": []}, f, indent=4)
 
-        current_time = time.time()
         print(f"Currently subscribed apps: {subscribed_apps}")  # Debugging print statement
 
         for app in subscribed_apps:
@@ -98,40 +87,30 @@ def run_scheduler():
             app_info = apps[app]
             app_path = os.path.join(app_info["path"], app_info["app_name"])  # Path to Pixlet .star app
             output_path = os.path.join(RENDERED_PATH, app_info["photo_name"])  # Where the rendered image will be stored
-            refresh_rate = app_info["refresh_rate"]
 
-            # Check if it's time to refresh this app
-            if current_time - last_executions.get(app, 0) >= refresh_rate:
-                print(f"Rendering app: {app}, Refresh Rate: {refresh_rate}s")
-                last_executions[app] = current_time  # Update last execution time
+            # Render Pixlet App
+            rendered_image = render_pixlet_app(app, app_path, output_path)
 
-                # Render Pixlet App
-                rendered_image = render_pixlet_app(app, app_path, output_path)
+            if rendered_image:
+                # Get Base64-encoded image
+                image_base64 = encode_image_to_base64(output_path)
 
-                if rendered_image:
-                    # Get current image hash
-                    current_hash = get_image_hash(rendered_image)
-
-                    if current_hash and (app not in last_hashes or last_hashes[app] != current_hash):
+                if image_base64:
+                    # Only send if the image is different from the last one
+                    if app not in last_images or last_images[app] != image_base64:
                         print(f"New image rendered for {app}, sending to client...")
-                        last_hashes[app] = current_hash  # Update last hash
+                        last_images[app] = image_base64  # Update last image sent
 
-                        # Generate URL for hosted image
-                        image_url = f"http://{MQTT_BROKER}:{IMAGE_SERVER_PORT}/images/{app_info['photo_name']}"
-
-                        # Send MQTT update with delete command for previous image
-                        client.publish(MQTT_TOPIC, json.dumps({"app": app, "path": image_url, "delete_old": True}))
+                        # Send MQTT update with image data
+                        client.publish(MQTT_TOPIC, json.dumps({
+                            "app": app,
+                            "image_data": image_base64,
+                            "delete_old": True
+                        }))
 
         time.sleep(1)  # Short sleep to prevent CPU overuse
 
 if __name__ == "__main__":
-    from threading import Thread
-
-    # Run the Flask image server in a separate thread
-    flask_thread = Thread(target=lambda: app.run(host="0.0.0.0", port=IMAGE_SERVER_PORT, debug=False))
-    flask_thread.daemon = True
-    flask_thread.start()
-
     try:
         run_scheduler()
     except KeyboardInterrupt:

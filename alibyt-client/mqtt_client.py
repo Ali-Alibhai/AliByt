@@ -35,27 +35,17 @@ def get_cached_path(app_name):
     return os.path.join(CACHE_DIR, f"{app_name}.webp")
 
 
-def download_image(url, app_name):
-    """Downloads an image only if it's new and saves it locally."""
+def download_image(image_data, app_name):
+    """Decodes and saves Base64 image data only if it's new."""
     local_path = get_cached_path(app_name)
-    
-    # Check if the image already exists
-    if os.path.exists(local_path):
-        print(f"Using cached image for {app_name}")
-        return local_path  # Return cached image path
-    
+
     try:
-        print(f"Downloading new image for {app_name} from {url}...")
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()  # Raise error for failed requests
-
-        # Save image locally
+        # Decode and save image
         with open(local_path, "wb") as f:
-            f.write(response.content)
-
+            f.write(image_data)
         return local_path
-    except requests.RequestException as e:
-        print(f"Error downloading image for {app_name}: {e}")
+    except Exception as e:
+        print(f"Error saving image for {app_name}: {e}")
         return None
 
 
@@ -65,16 +55,22 @@ def on_message(client, userdata, message):
     try:
         data = json.loads(message.payload)
         app_name = data.get("app")
-        image_url = data.get("path")
+        image_data = data.get("image_data")
+        delete_old = data.get("delete_old", False)
 
-        if app_name and image_url:
-            # Replace the existing image URL in the queue with its local path
-            local_path = download_image(image_url, app_name)
+        if app_name and image_data:
+            # Replace or delete existing image
+            if delete_old and app_name in image_queue:
+                os.remove(get_cached_path(app_name))  # Delete old file
+                print(f"Deleted old image for {app_name}")
+
+            # Store new image
+            local_path = download_image(base64.b64decode(image_data), app_name)
             if local_path:
                 image_queue[app_name] = local_path
                 print(f"Updated queue: {app_name} -> {local_path}")
         else:
-            print("Invalid app name or image URL received.")
+            print("Invalid app name or image data received.")
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON: {e}")
 
