@@ -25,13 +25,26 @@ def extract_config_options(star_file_path):
         with open(star_file_path, "r", encoding="utf-8") as file:
             content = file.read()
             
-            # Match schema configuration definitions (Dropdowns, Toggles, Text fields, etc.)
-            matches = re.findall(r'schema\.(\w+)\(\s*id\s*=\s*\"(.*?)\"', content)
-            
+            # Match schema configuration definitions
+            matches = re.findall(r'schema\.(\w+)\(\s*id\s*=\s*"(.*?)".*?name\s*=\s*"(.*?)"', content)
             for match in matches:
+                option_type, option_id, label = match
+                
+                # Extract default value
+                default_match = re.search(rf'id\s*=\s*"{option_id}".*?default\s*=\s*(.*?),', content, re.DOTALL)
+                default_value = default_match.group(1) if default_match else None
+                
+                # Extract dropdown options
+                options_match = re.search(rf'id\s*=\s*"{option_id}".*?options\s*=\s*\[(.*?)\]', content, re.DOTALL)
+                options = [opt.strip('" ') for opt in options_match.group(1).split(',')] if options_match else None
+                
                 config_options.append({
-                    "type": match[0],  # Type of input (Dropdown, Toggle, Text, etc.)
-                    "id": match[1]     # Configuration key
+                    "label": label,
+                    "type": option_type,
+                    "id": option_id,
+                    "default_value": default_value,
+                    "selected_value": None,
+                    "options": options
                 })
     except Exception as e:
         print(f"Error reading {star_file_path}: {e}")
