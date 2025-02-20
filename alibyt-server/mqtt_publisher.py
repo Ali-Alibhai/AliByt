@@ -49,55 +49,65 @@ def render_pixlet_app(app_name, app_path, output_path):
         return None
 
 def process_app(app):
-    """Runs a single app on its own thread."""
+    """Runs a single app in its own thread, with retry on failures."""
     global last_images, last_executions
 
     app_info = apps[app]
     app_path = os.path.join(app_info["path"], app_info["app_name"])
     output_path = os.path.join(RENDERED_PATH, app_info["photo_name"])
-    cache_path = os.path.join(CACHE_PATH, app_info["photo_name"])  # Cached image
+    cache_path = os.path.join(CACHE_PATH, app_info["photo_name"])
     refresh_rate = app_info["refresh_rate"]
 
     while True:
         current_time = time.time()
 
-        # Skip if the refresh rate hasn't passed
         if app in last_executions and (current_time - last_executions[app] < refresh_rate):
             time.sleep(1)
             continue
 
         print(f"Rendering {app}...")
-        rendered_image = render_pixlet_app(app, app_path, output_path)
 
-        if rendered_image:
-            image_base64 = encode_image_to_base64(output_path)
+        retry_attempts = 3  # Retry up to 3 times if rendering fails
+        success = False
 
-            if image_base64:
-                # Compare new image with cached image
-                if os.path.exists(cache_path):
-                    cached_base64 = encode_image_to_base64(cache_path)
-                    if image_base64 == cached_base64:
-                        print(f"No change in {app}, skipping update.")
-                        last_executions[app] = current_time  # Update execution time
-                        time.sleep(1)
-                        continue  # Skip sending if nothing changed
+        for attempt in range(retry_attempts):
+            rendered_image = render_pixlet_app(app, app_path, output_path)
 
-                # Save new image to cache
-                os.replace(output_path, cache_path)
+            if rendered_image:
+                image_base64 = encode_image_to_base64(output_path)
 
-                print(f"New image rendered for {app}, sending to client...")
-                last_images[app] = image_base64
-                last_executions[app] = current_time  # Update execution time
+                if image_base64:
+                    # Compare new image with cached image
+                    if os.path.exists(cache_path):
+                        cached_base64 = encode_image_to_base64(cache_path)
+                        if image_base64 == cached_base64:
+                            print(f"No change in {app}, skipping update.")
+                            last_executions[app] = current_time
+                            success = True
+                            break
 
-                # Send MQTT update with image data
-                client.publish(MQTT_TOPIC, json.dumps({
-                    "app": app,
-                    "image_data": image_base64,
-                    "delete_old": True
-                }))
+                    os.replace(output_path, cache_path)
 
-        time.sleep(1)  # Prevents CPU overload
+                    print(f"New image rendered for {app}, sending to client...")
+                    last_images[app] = image_base64
+                    last_executions[app] = current_time
 
+                    client.publish(MQTT_TOPIC, json.dumps({
+                        "app": app,
+                        "image_data": image_base64,
+                        "delete_old": True
+                    }))
+                    success = True
+                    break
+            else:
+                print(f"Retry {attempt + 1}/{retry_attempts} for {app}...")
+                time.sleep(random.randint(2, 5))  # Wait 2-5 seconds before retrying
+
+        if not success:
+            print(f"Failed to render {app} after {retry_attempts} attempts. Skipping.")
+        
+        time.sleep(1)  # Prevent CPU overload
+        
 def run_scheduler():
     """Runs the scheduler, creating threads for each app."""
     threads = []
