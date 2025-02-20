@@ -5,6 +5,7 @@ import paho.mqtt.client as mqtt
 import subprocess
 import base64
 import threading
+import random
 
 # Config Paths
 CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config.json"
@@ -107,7 +108,7 @@ def process_app(app):
             print(f"Failed to render {app} after {retry_attempts} attempts. Skipping.")
         
         time.sleep(1)  # Prevent CPU overload
-        
+
 def run_scheduler():
     """Runs the scheduler, creating threads for each app."""
     threads = []
