@@ -6,7 +6,7 @@ import re
 APPS_BASE_DIR = "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps"
 
 # Path to the apps_config.json file
-CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config2.json"
+CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config.json"
 
 # Default refresh rate
 DEFAULT_REFRESH_RATE = 60  # Default refresh rate in seconds
@@ -24,50 +24,18 @@ def extract_config_options(star_file_path):
     try:
         with open(star_file_path, "r", encoding="utf-8") as file:
             content = file.read()
-
-            # Match schema configuration definitions (Dropdowns, Toggles, Colors, etc.)
-            matches = re.findall(r'schema\.(\w+)\(\s*id\s*=\s*\"(.*?)\"(.*?)(?:,|\))', content)
-
+            
+            # Match schema configuration definitions (Dropdowns, Toggles, Text fields, etc.)
+            matches = re.findall(r'schema\.(\w+)\(\s*id\s*=\s*\"(.*?)\"', content)
+            
             for match in matches:
-                config_type = match[0]  # Type of input (Dropdown, Toggle, Color, etc.)
-                config_id = match[1]    # Config ID
-                config_data = match[2]  # Extra config data
-
-                # Extract default value
-                default_value_match = re.search(r'default\s*=\s*([\w\"\'\-\.]+)', config_data)
-                default_value = None
-                if default_value_match:
-                    default_value = default_value_match.group(1).strip('"').strip("'")
-                    if default_value in ["true", "false"]:  # Convert string booleans
-                        default_value = default_value == "true"
-
-                # Extract dropdown options if applicable
-                options = None
-                if config_type == "Dropdown":
-                    options_match = re.findall(r'options\s*=\s*\[([^\]]+)\]', config_data)
-                    if options_match:
-                        options = [opt.strip().strip('"').strip("'") for opt in options_match[0].split(",")]
-
-                # Set options for toggles (true/false)
-                if config_type == "Toggle":
-                    options = [True, False]
-
-                # Handle location & color fields
-                if "location" in config_id.lower():
-                    config_type = "Location"
-                if "color" in config_id.lower():
-                    config_type = "Color"
-
                 config_options.append({
-                    "type": config_type,
-                    "id": config_id,
-                    "default_value": default_value,
-                    "selected_value": default_value,  # Initially same as default
-                    "options": options  # Null if not a dropdown or toggle
+                    "type": match[0],  # Type of input (Dropdown, Toggle, Text, etc.)
+                    "id": match[1]     # Configuration key
                 })
     except Exception as e:
         print(f"Error reading {star_file_path}: {e}")
-
+    
     return config_options
 
 def update_apps_config():
