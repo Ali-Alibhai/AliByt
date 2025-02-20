@@ -4,43 +4,31 @@ import os
 import paho.mqtt.client as mqtt
 import subprocess
 import base64
+import threading
 
 # Config Paths
 CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config.json"
 SUBSCRIPTIONS_PATH = "/home/ali/AliByt/alibyt-server/database.json"
 RENDERED_PATH = "/home/ali/AliByt/alibyt-server/rendered_images"
+CACHE_PATH = "/home/ali/AliByt/alibyt-server/image_cache"  # Store old images
 
-# Ensure rendered_images directory exists
+# Ensure directories exist
 os.makedirs(RENDERED_PATH, exist_ok=True)
+os.makedirs(CACHE_PATH, exist_ok=True)
 
 # Load app configurations
 with open(CONFIG_PATH, "r") as file:
     apps = json.load(file)
 
-# Load subscribed apps with error handling
-subscribed_apps = set()
-try:
-    if os.path.exists(SUBSCRIPTIONS_PATH) and os.path.getsize(SUBSCRIPTIONS_PATH) > 0:
-        with open(SUBSCRIPTIONS_PATH, "r") as f:
-            subscriptions = json.load(f)
-            subscribed_apps = set(subscriptions.get("subscribed_apps", []))
-    else:
-        print("Warning: `database.json` is empty. Using default empty subscriptions.")
-except json.JSONDecodeError:
-    print("Error: `database.json` is corrupted. Resetting to default.")
-    subscribed_apps = set()
-    with open(SUBSCRIPTIONS_PATH, "w") as f:
-        json.dump({"subscribed_apps": []}, f, indent=4)
-
 # MQTT setup
 MQTT_BROKER = "192.168.2.48"
 MQTT_TOPIC = "alibyt/images"
-
 client = mqtt.Client()
 client.connect(MQTT_BROKER)
 
-# Track last sent images
+# Track last sent images and timestamps
 last_images = {}
+last_executions = {}
 
 def encode_image_to_base64(image_path):
     """Encodes the image file into a Base64 string."""
@@ -60,55 +48,84 @@ def render_pixlet_app(app_name, app_path, output_path):
         print(f"Error rendering {app_name}: {e}")
         return None
 
-def run_scheduler():
-    """Runs the scheduler and renders new images before sending them."""
+def process_app(app):
+    """Runs a single app on its own thread."""
+    global last_images, last_executions
+
+    app_info = apps[app]
+    app_path = os.path.join(app_info["path"], app_info["app_name"])
+    output_path = os.path.join(RENDERED_PATH, app_info["photo_name"])
+    cache_path = os.path.join(CACHE_PATH, app_info["photo_name"])  # Cached image
+    refresh_rate = app_info["refresh_rate"]
+
     while True:
-        # Reload subscriptions every cycle
+        current_time = time.time()
+
+        # Skip if the refresh rate hasn't passed
+        if app in last_executions and (current_time - last_executions[app] < refresh_rate):
+            time.sleep(1)
+            continue
+
+        print(f"Rendering {app}...")
+        rendered_image = render_pixlet_app(app, app_path, output_path)
+
+        if rendered_image:
+            image_base64 = encode_image_to_base64(output_path)
+
+            if image_base64:
+                # Compare new image with cached image
+                if os.path.exists(cache_path):
+                    cached_base64 = encode_image_to_base64(cache_path)
+                    if image_base64 == cached_base64:
+                        print(f"No change in {app}, skipping update.")
+                        last_executions[app] = current_time  # Update execution time
+                        time.sleep(1)
+                        continue  # Skip sending if nothing changed
+
+                # Save new image to cache
+                os.replace(output_path, cache_path)
+
+                print(f"New image rendered for {app}, sending to client...")
+                last_images[app] = image_base64
+                last_executions[app] = current_time  # Update execution time
+
+                # Send MQTT update with image data
+                client.publish(MQTT_TOPIC, json.dumps({
+                    "app": app,
+                    "image_data": image_base64,
+                    "delete_old": True
+                }))
+
+        time.sleep(1)  # Prevents CPU overload
+
+def run_scheduler():
+    """Runs the scheduler, creating threads for each app."""
+    threads = []
+
+    while True:
         try:
-            if os.path.exists(SUBSCRIPTIONS_PATH) and os.path.getsize(SUBSCRIPTIONS_PATH) > 0:
-                with open(SUBSCRIPTIONS_PATH, "r") as f:
-                    subscriptions = json.load(f)
-                    subscribed_apps = set(subscriptions.get("subscribed_apps", []))
-            else:
-                subscribed_apps = set()
+            with open(SUBSCRIPTIONS_PATH, "r") as f:
+                subscriptions = json.load(f)
+                subscribed_apps = set(subscriptions.get("subscribed_apps", []))
         except json.JSONDecodeError:
             print("Error: `database.json` is corrupted. Resetting to default.")
             subscribed_apps = set()
             with open(SUBSCRIPTIONS_PATH, "w") as f:
                 json.dump({"subscribed_apps": []}, f, indent=4)
 
-        print(f"Currently subscribed apps: {subscribed_apps}")  # Debugging print statement
-
         for app in subscribed_apps:
             if app not in apps:
-                print(f"Skipping {app} - Not found in config!")  # Debugging print
+                print(f"Skipping {app} - Not found in config!")
                 continue
 
-            app_info = apps[app]
-            app_path = os.path.join(app_info["path"], app_info["app_name"])  # Path to Pixlet .star app
-            output_path = os.path.join(RENDERED_PATH, app_info["photo_name"])  # Where the rendered image will be stored
+            # Start a new thread for each app
+            if app not in last_executions:
+                thread = threading.Thread(target=process_app, args=(app,))
+                thread.daemon = True
+                thread.start()
+                threads.append(thread)
 
-            # Render Pixlet App
-            rendered_image = render_pixlet_app(app, app_path, output_path)
-
-            if rendered_image:
-                # Get Base64-encoded image
-                image_base64 = encode_image_to_base64(output_path)
-
-                if image_base64:
-                    # Only send if the image is different from the last one
-                    if app not in last_images or last_images[app] != image_base64:
-                        print(f"New image rendered for {app}, sending to client...")
-                        last_images[app] = image_base64  # Update last image sent
-
-                        # Send MQTT update with image data
-                        client.publish(MQTT_TOPIC, json.dumps({
-                            "app": app,
-                            "image_data": image_base64,
-                            "delete_old": True
-                        }))
-
-        time.sleep(1)  # Short sleep to prevent CPU overuse
+        time.sleep(5)  # Give time for new apps to be detected
 
 if __name__ == "__main__":
     try:
