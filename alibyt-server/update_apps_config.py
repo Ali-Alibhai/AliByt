@@ -1,15 +1,15 @@
 import os
 import json
+import re
 
 # Base directory where apps are stored
 APPS_BASE_DIR = "/home/ali/AliByt/alibyt-apps/tidbyt-community/apps"
 
 # Path to the apps_config.json file
-CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config.json"
+CONFIG_PATH = "/home/ali/AliByt/alibyt-server/apps_config2.json"
 
 # Default refresh rate
-DEFAULT_REFRESH_RATE = 60  # You can change this default
-
+DEFAULT_REFRESH_RATE = 60  # Default refresh rate in seconds
 
 def find_star_file(directory):
     """Finds the .star file inside the given app directory."""
@@ -18,9 +18,28 @@ def find_star_file(directory):
             return file  # Return the full filename (e.g., "nba_standings.star")
     return None  # No .star file found
 
+def extract_config_options(star_file_path):
+    """Extracts configuration options from the .star file by scanning for schema definitions."""
+    config_options = []
+    try:
+        with open(star_file_path, "r", encoding="utf-8") as file:
+            content = file.read()
+            
+            # Match schema configuration definitions (Dropdowns, Toggles, Text fields, etc.)
+            matches = re.findall(r'schema\.(\w+)\(\s*id\s*=\s*\"(.*?)\"', content)
+            
+            for match in matches:
+                config_options.append({
+                    "type": match[0],  # Type of input (Dropdown, Toggle, Text, etc.)
+                    "id": match[1]     # Configuration key
+                })
+    except Exception as e:
+        print(f"Error reading {star_file_path}: {e}")
+    
+    return config_options
 
 def update_apps_config():
-    """ Scans the apps directory and updates the apps_config.json file """
+    """Scans the apps directory and updates the apps_config.json file."""
     apps_config = {}
 
     # Check if the base directory exists
@@ -42,6 +61,12 @@ def update_apps_config():
             print(f"⚠️ Warning: No .star file found in {app_dir}, skipping...")
             continue  # Skip this app if no .star file is found
 
+        # Full path to .star file
+        star_file_path = os.path.join(app_dir, star_filename)
+
+        # Extract config settings from the .star file
+        config_settings = extract_config_options(star_file_path)
+
         # Generate the .webp filename (same name as the .star file, but with .webp)
         webp_filename = star_filename.replace(".star", ".webp")
 
@@ -50,16 +75,15 @@ def update_apps_config():
             "path": app_dir,
             "app_name": star_filename,
             "photo_name": webp_filename,
-            "refresh_rate": DEFAULT_REFRESH_RATE
+            "refresh_rate": DEFAULT_REFRESH_RATE,
+            "config_settings": config_settings  # New field for available configurations
         }
 
     # Save updated config
-    with open(CONFIG_PATH, "w") as config_file:
+    with open(CONFIG_PATH, "w", encoding="utf-8") as config_file:
         json.dump(apps_config, config_file, indent=4)
 
     print(f"✅ Updated {CONFIG_PATH} with {len(apps_config)} apps.")
 
-
 if __name__ == "__main__":
     update_apps_config()
-
